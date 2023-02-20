@@ -1,0 +1,15 @@
+{
+  "name": "kuber_hello",
+  "version": "1.0.0",
+  "description": "trying my k8",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node src/index.js"
+  },
+  "author": "nuwan udara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

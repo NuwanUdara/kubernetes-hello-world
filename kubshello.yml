@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: nodejspod
+spec:
+   containers:
+   - name: kubehello1
+     image: nuwanudara/dockerhub:mykuberneteshello
+     ports:
+     - containerPort: 3000
